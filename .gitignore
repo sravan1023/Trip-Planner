@@ -1,0 +1,39 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and vector stores
+data.db
+chroma_db/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and coverage artifacts
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Generated docs and local app config
+docs/
+
+# Local editor and agent settings
+.vscode/settings.json
+.claude/settings.local.json
+.streamlit/secrets.toml
+
+# OS files
+Thumbs.db
